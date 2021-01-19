@@ -98,7 +98,7 @@ def get_median(number_list):
         median = (number_list[pos] + number_list[pos-1])/2
     # 홀수
     else:
-        pos = round(size/2)
+        pos = int(size/2)
         median = number_list[pos]
 
     return median
